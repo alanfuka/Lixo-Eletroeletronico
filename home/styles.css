@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'open sans', sans-serif;
+    background-color: rgba(248, 243, 232, 1);
+   
+    
+}
+
+* { 
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+.seloelixo {
+    margin-left: 19.4%;
+}
+
+.cabecalho {
+    background-color: rgba(6, 132, 90, 1);
+    padding:25px;
+}
+
+.navegacao ul {
+    list-style-type: none; 
+    background-color: rgba(6, 48, 33, 1);
+    padding: 0;
+    text-align: center;
+    
+}
+
+.navegacao ul li { 
+    display: inline;    
+   
+}
+
+.navegacao ul li a {   
+    display: inline-block;
+    padding: 1%;
+    text-decoration: none; 
+    transition: background .4s; 
+    color: rgba(248, 243, 232, 1); 
+    font-size: 105%;      
+    width: 11.8%;
+}
+
+.navegacao ul li a:hover {
+    background-color: rgb(4, 77, 52);
+}
+
+.corpo {
+    max-width: 60%;   
+    margin-left: 20%;
+}
+
+.corpo h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+.imgelixo {
+    width: 100%; 
+}
+
+.corpo h2{
+    font: bold 1.5rem sans-serif;
+    font-size: 180%;
+}
+
+.texto {
+    background-color: rgba(240, 230, 209, 1);
+    padding: 20px; 
+    font: 1.05rem sans-serif;
+    line-height: 160%;
+    font-size: 106%;
+}
+
+
+#imgesq {
+    float: left;
+    margin:1%;
+    width: 40%;
+    margin-left: 0;
+}
+
+#bgnav {
+    background-color: rgba(6, 132, 90, 1);    
+}

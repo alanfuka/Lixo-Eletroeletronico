@@ -2,16 +2,13 @@
 
 body{
     font-family: 'open sans', sans-serif;
-    background-color: rgba(248, 243, 232, 1);
-   
-    
+    background-color: rgba(248, 243, 232, 1);   
 }
 
 * { 
     margin: 0 auto;
     padding: 0;
-    box-sizing:border-box;
-    
+    box-sizing:border-box;   
 }
 
 .seloelixo {
@@ -27,13 +24,11 @@ body{
     list-style-type: none; 
     background-color: rgba(6, 48, 33, 1);
     padding: 0;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .navegacao ul li { 
-    display: inline;    
-   
+    display: inline;       
 }
 
 .navegacao ul li a {   
@@ -81,8 +76,9 @@ body{
 #imgesq {
     float: left;
     margin:1%;
-    width: 40%;
+    width: 31%;
     margin-left: 0;
+    margin-bottom: 0;
 }
 
 #bgnav {
